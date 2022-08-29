@@ -1,0 +1,64 @@
+=================
+INSTALLING BOTTRAIN
+=================
+
+This document contains instructions on installing botnlp
+on your system.
+
+-------------
+Obtaining BotNlp
+-------------
+
+BotNlp can be located at the botnlp web site,
+
+   https://github.com/ics-klb/botnlp/
+
+-------------
+Dependencies
+-------------
+
+Please make sure all dependencies are met before submitting a troubleshooting question.
+
+- Python 3.6>=
+
+- Twisted 19.2.0>=
+    http://twistedmatrix.com/
+
+- pyopenssl - if you want tls to work.
+
+-------------
+Installing BotNlp
+-------------
+
+1. Untar the current botnlp-X.X.tar.gz file in a directory you would
+   like botnlp to reside.
+
+shell>tar vxzf botnlp-X.X.tar.gz
+
+2. Run setup to install
+
+shell>python setup.py install
+
+3. Run botnlp
+
+shell>twistd botnlp
+
+Run "twistd botnlp --help" for options.
+
+4. HAVE FUN!!
+
+
+---------------------------
+Extending BotNlp
+---------------------------
+
+You are able to extend botnlp in many ways.
+
+For configuration flexibility you can use a .tac file. See botnlp.tac for
+details.
+
+-------------
+Support
+-------------
+
+ https://github.com/ics-klb/botnlp/

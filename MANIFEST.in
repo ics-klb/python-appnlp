@@ -1,0 +1,10 @@
+include LICENSE.txt README.txt TODO.txt INSTALL.txt NOTES.txt MANIFEST
+include setup.cfg
+include html/*
+recursive-include botnlp *
+recursive-include twisted *
+recursive-include tests *
+recursive-include html/js *
+recursive-include html/css *
+recursive-include html/images *
+global-exclude *~ .cvs* *.pyc .svn*
